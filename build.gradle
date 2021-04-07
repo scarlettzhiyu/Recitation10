@@ -1,6 +1,5 @@
 apply plugin: 'java'
 apply plugin: 'application'
-apply plugin: 'eclipse'
 
 test.testLogging { exceptionFormat "full"; events "failed", "passed", "skipped" }
 
